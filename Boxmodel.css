@@ -1,0 +1,46 @@
+/*
+* Grace Fairchild
+* 5/9/2019
+* Box Model
+*/
+
+/* The universal selector */
+
+*{
+    margin:0;
+    padding:0;}
+
+h1 {   /* Changing heading one border */
+    background-color: white;
+    height: 50px;
+    width: 1000px;
+    border: 5px dashed magenta;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {   /* Changing paragraph border */
+    background-color:white;
+    height: 50px;
+    width: 1000px;
+    border: 5px dashed purple;
+    padding: 10px;
+    margin: 10px;
+}
+
+body {   /* Changing body border */
+    background-color: white;
+    width: 90%; 
+    border: 5px dotted magenta;
+    padding: 10px;
+    margin: 10px;
+}
+
+main {  /* Changing main border */
+    background-color: white;
+    height: 200px;
+    width: 1050px;
+    border: 5px solid purple;
+    padding: 10px;
+    margin: 10px;
+}
